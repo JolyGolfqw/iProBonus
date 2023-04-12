@@ -1,0 +1,9 @@
+.error_block {
+  color: red;
+  padding: 10px;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  background-color: white;
+  border-radius: 10px;
+}

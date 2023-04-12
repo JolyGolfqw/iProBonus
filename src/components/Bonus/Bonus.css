@@ -1,0 +1,57 @@
+/* BONUS */
+
+.bonus {
+    width: 80%;
+    justify-content: space-around;
+    max-width: 335px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    border-radius: 20px;
+    height: 70px;
+    align-items: center;
+    padding: 18px;
+  }
+  
+  .bonus_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bonus button {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .bonus_burning {
+    display: grid;
+    grid-column-gap: 8px;
+    grid-template-columns: auto 24px auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #979797;
+    word-break: break-all;
+    max-width: 230px;
+    justify-items: center;
+  }
+  
+  .bonus_currentValue {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 12px;
+    word-break: break-all;
+    max-width: 230px;
+  }
+  
+  .bonus_dateBurning {
+    margin: 0;
+  }
+  
+  .bonus_forBurningValue {
+    margin: 0;
+  }
+  
